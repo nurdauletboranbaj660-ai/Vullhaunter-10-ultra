@@ -1,0 +1,12 @@
+[
+  {
+    "file": "samples/vuln.php",
+    "type": "SQL Injection #1",
+    "pattern": "select.*from.*where"
+  },
+  {
+    "file": "samples/xss.html",
+    "type": "XSS SVG #7",
+    "pattern": "<svg.*onload"
+  }
+]
